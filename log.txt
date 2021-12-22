@@ -1,0 +1,32 @@
+####################################################################################################
+ai: Hi there ! Can you hear me? 
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "negative",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "9fcd79e11df59f7a1b721a00177a153b:v2",
+    "weight": 0.99418,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "no",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: nope
+ai: You will excuse me if I find that highly unlikely. After all, you responded to me and I can hear you just fine. Peace out!
